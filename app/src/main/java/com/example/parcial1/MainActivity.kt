@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         val spTo = findViewById<Spinner>(R.id.spTo)
         val tvResult = findViewById<TextView>(R.id.tvResult)
         val btnConvert = findViewById<Button>(R.id.btnConvert)
+        val btnSwap = findViewById<Button>(R.id.btnSwap)
+        val btnClear = findViewById<Button>(R.id.btnClear)
 
         btnConvert.setOnClickListener {
             val cantidad = etAmount.text.toString().toDouble()
@@ -38,6 +40,17 @@ class MainActivity : AppCompatActivity() {
                 tvResult.text = e.message
 
             }
+        }
+
+        btnSwap.setOnClickListener {
+            val temp = spFrom.selectedItemPosition
+            spFrom.setSelection(spTo.selectedItemPosition)
+            spTo.setSelection(temp)
+        }
+
+        btnClear.setOnClickListener {
+            etAmount.text.clear()
+            tvResult.text = getString(R.string.default_result)
         }
 
 
