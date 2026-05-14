@@ -15,11 +15,11 @@
     <string name="precision">Ajustar precisión</string>
 
     <string-array name="monedas">
-        <item>USD - Dólar Estadounidense</item>
-        <item>EUR - Euro</item>
-        <item>PAB - Balboa Panameño</item>
-        <item>COP - Peso Colombiano</item>
-        <item>CRC - Colón Costarricense</item>
-        <item>MXN - Peso Mexicano</item>
+        <item>Dólar Estadounidense (USD)</item>
+        <item>Euro (EUR)</item>
+        <item>Balboa Panameño (PAB)</item>
+        <item>Peso Colombiano (COP)</item>
+        <item>Colón Costarricense (CRC)</item>
+        <item>Peso Mexicano (MXN)</item>
     </string-array>
 </resources>
