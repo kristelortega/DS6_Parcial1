@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Parcial1</string>
+    <string name="conversor_monedas">Conversor de Monedas</string>
+    <string name="monto">Monto</string>
+    <string name="hint_monto">Ingrese monto</string>
+    <string name="desde">Desde</string>
+    <string name="hacia">Hacia</string>
+    <string name="resultado">Resultado</string>
+    <string name="default_result">0.00</string>
+    <string name="convertir">Convertir</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="intercambiar">Intercambiar monedas</string>
+    <string name="modo_oscuro">Modo oscuro</string>
+    <string name="progreso">Progreso de conversión</string>
+    <string name="precision">Ajustar precisión</string>
+</resources>
